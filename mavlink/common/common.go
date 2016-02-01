@@ -4367,7 +4367,7 @@ func (self *AttPosMocap) TypeSize() uint8 {
 }
 
 func (self *AttPosMocap) TypeCRCExtra() uint8 {
-	return 119
+	return 109
 }
 
 func (self *AttPosMocap) FieldsString() string {
