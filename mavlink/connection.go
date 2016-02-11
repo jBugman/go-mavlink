@@ -28,14 +28,6 @@ func NewConnection(wrappedConn io.ReadWriter, systemID uint8) *Connection {
 	return conn
 }
 
-func NewConnectionDial(address string, systemID uint8) (*Connection, error) {
-	wrappedConn, err := Dial(address)
-	if err != nil {
-		return nil, err
-	}
-	return NewConnection(wrappedConn, systemID), nil
-}
-
 func (conn *Connection) receiveLoop() {
 	for !conn.closed {
 
