@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SpaceLeap/go-mavlink/x25"
+	"github.com/jBugman/go-mavlink/x25"
 	"github.com/ungerik/go-dry"
 )
 

@@ -3,7 +3,7 @@ package test
 import (
 	"fmt"
 
-	"github.com/SpaceLeap/go-mavlink/mavlink"
+	"github.com/jBugman/go-mavlink/mavlink"
 )
 
 const (

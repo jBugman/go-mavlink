@@ -3,8 +3,8 @@ package pixhawk
 import (
 	"fmt"
 
-	"github.com/SpaceLeap/go-mavlink/mavlink"
-	"github.com/SpaceLeap/go-mavlink/mavlink/common"
+	"github.com/jBugman/go-mavlink/mavlink"
+	"github.com/jBugman/go-mavlink/mavlink/common"
 )
 
 const (
